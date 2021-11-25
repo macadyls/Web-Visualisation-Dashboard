@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Comparison</title>
+  <link rel="stylesheet" href="resources/bootstrap.min.css">
+</head>
+
+<body class="bg-dark">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="landingPage.html">Latitude</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarColor01" >
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="landingPage.html">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="comparison.html">Comparisons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="visualisation-1.html">Visualisation 1</a>
+                  <a class="dropdown-item" href="visualisation-2.html">Visualisation 2</a>
+                  <a class="dropdown-item" href="visualisation-3.html">Visualisation 3</a>
+                  <a class="dropdown-item" href="visualisation-4.html">Visualisation 4</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- Start of Main Body -->
+    <div class="container">
+        <br>
+        <div class="row justify-content-evenly">   
+            <br>
+            <div class="bg-light col-sm-12 col-md-12 col-lg-10">
+                <h1>Comparison: Latitude vs. x</h1>
+                <hr>
+                <p>Click any plot to get an in-depth analysis.</p>
+                <div class="row justify-content-evenly">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <h3 style="text-align:center">vs. Max Temperature</h3>
+                        <a href="visualisation-1.html"><img src="images/Fig1.png" class="img-thumbnail" alt="Latitude vs. Temperature"></a>
+                        <hr>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <h3 style="text-align:center">vs. Humidity</h3>
+                        <a href="visualisation-2.html"><img src="images/Fig2.png" class="img-thumbnail" alt="Latitude vs. Humidity"></a>
+                        <hr>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <h3 style="text-align:center">vs. Cloudiness</h3>
+                        <a href="visualisation-3.html"><img src="images/Fig3.png" class="img-thumbnail" alt="Latitude vs. Cloudiness"></a>
+                        <hr>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <h3 style="text-align:center">vs. Wind Speed</h3>
+                        <a href="visualisation-4.html"><img src="images/Fig4.png" class="img-thumbnail" alt="Latitude vs. Wind Speed"></a>
+                        <hr>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Import -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
